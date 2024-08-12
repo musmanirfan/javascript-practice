@@ -230,9 +230,37 @@
 //loops started
 
 
-let count: number = 0;
+// let count: number = 0;
 
-while (count <= 5) {
-    console.log(`count is ${count}`);
-    count++;
-}
+// while (count <= 5) {
+//     console.log(`count is ${count}`);
+//     count++;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let num: number = 5;
+
+do {
+    console.log(`Number is ${num}`);
+    num++
+} while (num < 5)
