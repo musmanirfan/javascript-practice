@@ -69,11 +69,96 @@
 
 
 
-let even = (num: number) : boolean =>{
-    return num & 1 ? false : true
+// let even = (num: number) : boolean =>{
+//     return num & 1 ? false : true
+// }
+
+// console.log(even(5));//false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//conditions practice
+
+
+// let num : number = 0;
+
+// if(num < 0){
+//     console.log("negative");
+// } else if(num > 0){
+//     console.log("positive");
+// }else {
+//     console.log("zero"); 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let season : number = 2
+
+
+switch (season) {
+    case 1:
+        console.log("Winter");
+        break;
+        
+    case 2:
+        console.log("Spring");
+        break;
+        
+    case 3:
+        console.log("summer");
+        break;
+    case 4:
+        console.log("Fall");
+        break;
+    default:
+        console.log("invalid Season");
+        
+        break;
 }
-
-console.log(even(5));
-
-
 
