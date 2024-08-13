@@ -103,11 +103,18 @@
 // for (let i = 0; i < colorNames.length; i++) {
 //     console.log(colorNames[i]);
 // }
-let sumArr = () => {
-    let arr = [1, 2, 6, 5, 8, 25, 85, 35];
-    arr.forEach(num => {
-        num + 1;
-    });
-    return arr;
-};
-console.log(sumArr());
+// let sumArr = () => {
+//     let arr: number[] = [1, 2, 6, 5, 8, 25, 85, 35];
+//     let sum = 0
+//     arr.forEach((num, index) => {
+//        sum += num 
+//     });
+//     return sum
+// }
+// console.log(sumArr());
+// let arr: number[] = [1, 2, 6, 5, 8, 25, 85, 35];
+// arr.forEach(num => {
+//     if (num % 2 === 0) {
+//         console.log(num);
+//     }
+// })
