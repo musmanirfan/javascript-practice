@@ -118,3 +118,12 @@
 //         console.log(num);
 //     }
 // })
+// Object Started
+let car = {
+    make: "toyota",
+    model: "Corolla",
+    year: 2015,
+    start: () => {
+        console.log(`${this.model} is starting`);
+    }
+};
