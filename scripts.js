@@ -95,11 +95,19 @@
 //         console.log(num);
 //     }
 // });
-const colorNames = [
-    "Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink", "Brown", "Black", "White"
-];
-colorNames.pop();
-colorNames.shift();
-for (let i = 0; i < colorNames.length; i++) {
-    console.log(colorNames[i]);
-}
+// const colorNames: string[] = [
+//     "Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink", "Brown", "Black", "White"
+// ];
+// colorNames.pop();
+// colorNames.shift()
+// for (let i = 0; i < colorNames.length; i++) {
+//     console.log(colorNames[i]);
+// }
+let sumArr = () => {
+    let arr = [1, 2, 6, 5, 8, 25, 85, 35];
+    arr.forEach(num => {
+        num + 1;
+    });
+    return arr;
+};
+console.log(sumArr());
