@@ -65,8 +65,27 @@
 //     console.log(`count is ${count}`);
 //     count++;
 // }
-let num = 5;
-do {
-    console.log(`Number is ${num}`);
-    num++;
-} while (num < 5);
+// let num: number = 5;
+// do {
+//     console.log(`Number is ${num}`);
+//     num++
+// } while (num < 5)
+// for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+// }
+// let num = 2; // Start with the first even number
+// while (num <= 10) { // Continue as long as num is less than or equal to 10
+//     console.log(num); // Print the current value of num
+//     num += 2; // Increment num by 2 to get the next even number
+// }
+// type iteratesType = {
+//     a: number, b: number, c: number
+// }
+// let iterates: iteratesType = { a: 1, b: 2, c: 3 };
+// for (const key in iterates) {
+//     console.log(`${key} : ${iterates [key as keyof iteratesType]}`);
+// }
+let arr = ["Apple", "Banana", "Orange"];
+for (const fruit of arr) {
+    console.log(fruit);
+}
