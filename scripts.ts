@@ -367,9 +367,107 @@
 
 
 
-let arr: string[] = ["Apple", "Banana", "Orange"]
+// let arr: string[] = ["Apple", "Banana", "Orange"]
 
-for (const fruit of arr) {
-    console.log(fruit);
+// for (const fruit of arr) {
+//     console.log(fruit);
+// }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let arr: number[] = [2,5,6,9,10,25]
+// arr.forEach(num => {
+//     if(num % 2 === 0){
+//         console.log(num);
+
+//     }
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const colorNames: string[] = [
+    "Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink", "Brown", "Black", "White"
+];
+
+
+
+colorNames.pop();
+colorNames.shift()
+
+for (let i = 0; i < colorNames.length; i++) {
+    console.log(colorNames[i]);
 }
+
