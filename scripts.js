@@ -139,6 +139,19 @@
 // console.log(car.year);
 // events started
 let button = document.querySelector("button");
-button === null || button === void 0 ? void 0 : button.addEventListener("click", () => {
-    alert("The button is clicked");
+// button?.addEventListener("click", () => {
+//     alert("The button is clicked")
+// })
+// button?.addEventListener("mouseover", () => {
+//     alert("The button is mouseOver")
+// })
+// button?.addEventListener("load", () => {
+//     alert("The button is load")
+// })
+let greetButton = document.querySelector("#greetButton");
+greetButton === null || greetButton === void 0 ? void 0 : greetButton.addEventListener("click", () => {
+    alert("Hello World!");
+});
+greetButton === null || greetButton === void 0 ? void 0 : greetButton.addEventListener("mouseover", () => {
+    greetButton.style.backgroundColor = "red";
 });

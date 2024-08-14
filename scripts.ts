@@ -613,6 +613,31 @@
 let button = document.querySelector("button");
 
 
-button?.addEventListener("click", ()=>{
-    alert("The button is clicked")
+// button?.addEventListener("click", () => {
+//     alert("The button is clicked")
+// })
+
+
+// button?.addEventListener("mouseover", () => {
+//     alert("The button is mouseOver")
+// })
+// button?.addEventListener("load", () => {
+//     alert("The button is load")
+// })
+
+
+
+
+
+
+let greetButton = document.querySelector("#greetButton");
+
+
+greetButton?.addEventListener("click", ()=>{
+    alert("Hello World!");
+})
+
+
+greetButton?.addEventListener("mouseover", ()=>{
+    greetButton.style.backgroundColor = "red";
 })
