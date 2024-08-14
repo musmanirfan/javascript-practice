@@ -560,25 +560,59 @@
 
 // Object Started
 
-type colorType = {
-    make: string,
-    model: string,
-    year?: number,
-    describe: () => void,
-    color?: string
-}
+// type colorType = {
+//     make: string,
+//     model: string,
+//     year?: number,
+//     describe: () => void,
+//     color?: string
+// }
 
 
-let car: colorType = {
-    make: "toyota",
-    model: "Corolla",
-    year: 2015,
-    describe: function () {
-        console.log(`This car is a ${this.year} ${this.make} ${this.model}`);
-    }
-}
+// let car: colorType = {
+//     make: "toyota",
+//     model: "Corolla",
+//     year: 2015,
+//     describe: function () {
+//         console.log(`This car is a ${this.year} ${this.make} ${this.model}`);
+//     }
+// }
 
-car.color = "black"
-delete car.year;
-console.log(car.year);
+// car.color = "black"
+// delete car.year;
+// console.log(car.year);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// events started
+
+let button = document.querySelector("button");
+
+
+button?.addEventListener("click", ()=>{
+    alert("The button is clicked")
+})
