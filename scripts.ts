@@ -560,12 +560,25 @@
 
 // Object Started
 
+type colorType = {
+    make: string,
+    model: string,
+    year?: number,
+    describe: () => void,
+    color?: string
+}
 
-let car = {
+
+let car: colorType = {
     make: "toyota",
     model: "Corolla",
     year: 2015,
-    start: () => {
-        console.log(`${this.model} is starting` );
+    describe: function () {
+        console.log(`This car is a ${this.year} ${this.make} ${this.model}`);
     }
 }
+
+car.color = "black"
+delete car.year;
+console.log(car.year);
+
