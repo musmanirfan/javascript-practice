@@ -185,3 +185,18 @@ let button = document.querySelector("button");
 //     if (i === 3) break;
 //     console.log(i);
 //   }
+// let fruits = ["apple", "banana", "cherry"];
+// console.log(fruits[1]);
+// let person = {
+//     name: "John",
+//     age: 30
+//   };
+//   console.log(person.name);
+// document.getElementById("greetButton").addEventListener("click", function() {
+//     console.log("Clicked");
+//   });
+// try {
+//     let x = y + 10;
+//   } catch (error) {
+//     console.log("Error occurred");
+//   }
