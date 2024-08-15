@@ -148,10 +148,26 @@ let button = document.querySelector("button");
 // button?.addEventListener("load", () => {
 //     alert("The button is load")
 // })
-let greetButton = document.querySelector("#greetButton");
-greetButton === null || greetButton === void 0 ? void 0 : greetButton.addEventListener("click", () => {
-    alert("Hello World!");
-});
-greetButton === null || greetButton === void 0 ? void 0 : greetButton.addEventListener("mouseover", () => {
-    greetButton.style.backgroundColor = "red";
-});
+// let greetButton = document.querySelector("#greetButton");
+// greetButton?.addEventListener("click", ()=>{
+//     alert("Hello World!");
+// })
+// greetButton?.addEventListener("mouseover", ()=>{
+//     greetButton.style.backgroundColor = "red";
+// })
+// document.addEventListener("keydown", function(event) {
+//     console.log("Key pressed: " + event.key);
+// });
+// let upperCase = "Muhammad. Us.ma.n, Mu.hamm.ad H.uzai.fa"
+// console.log(upperCase.split("."));
+function vowelCount(stri) {
+    let str = ["a", "e", "I", "o", "u",];
+    let count = 0;
+    for (let i = 0; i < stri.length; i++) {
+        if (str.includes(stri[i])) {
+            count++;
+        }
+    }
+    return count;
+}
+console.log(vowelCount("Muhammad usman"));
