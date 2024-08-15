@@ -160,14 +160,28 @@ let button = document.querySelector("button");
 // });
 // let upperCase = "Muhammad. Us.ma.n, Mu.hamm.ad H.uzai.fa"
 // console.log(upperCase.split("."));
-function vowelCount(stri) {
-    let str = ["a", "e", "I", "o", "u",];
-    let count = 0;
-    for (let i = 0; i < stri.length; i++) {
-        if (str.includes(stri[i])) {
-            count++;
-        }
-    }
-    return count;
-}
-console.log(vowelCount("Muhammad usman"));
+// function vowelCount(stri: string): number {
+//     let str: string[] = ["a", "e", "I", "o", "u",]
+//     let count = 0
+//     for (let i = 0; i < stri.length; i++) {
+//         if(str.includes(stri[i])){
+//             count ++
+//         }
+//     }
+//     return count;
+// }
+// console.log(
+//     vowelCount("Muhammad usman")
+// );
+// let x:string = "10";
+// let y: number = 10;
+// console.log(x == y);
+// if (5 > 3 && 2 < 4) {
+//     console.log("Yes");
+//   } else {
+//     console.log("No");
+//   }
+// for (let i = 0; i < 5; i++) {
+//     if (i === 3) break;
+//     console.log(i);
+//   }

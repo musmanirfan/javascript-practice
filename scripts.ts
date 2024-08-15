@@ -666,18 +666,52 @@ let button = document.querySelector("button");
 
 
 
-function vowelCount(stri: string): number {
-    let str: string[] = ["a", "e", "I", "o", "u",]
-    let count = 0
-    for (let i = 0; i < stri.length; i++) {
-        if(str.includes(stri[i])){
-            count ++
-        }
-    }
-    return count;
-}
+// function vowelCount(stri: string): number {
+//     let str: string[] = ["a", "e", "I", "o", "u",]
+//     let count = 0
+//     for (let i = 0; i < stri.length; i++) {
+//         if(str.includes(stri[i])){
+//             count ++
+//         }
+//     }
+//     return count;
+// }
 
 
-console.log(
-    vowelCount("Muhammad usman")
-);
+// console.log(
+//     vowelCount("Muhammad usman")
+// );
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let x:string = "10";
+// let y: number = 10;
+
+// console.log(x == y);
+
+
+
+// if (5 > 3 && 2 < 4) {
+//     console.log("Yes");
+//   } else {
+//     console.log("No");
+//   }
+  
+
+
+
+// for (let i = 0; i < 5; i++) {
+//     if (i === 3) break;
+//     console.log(i);
+//   }
+  
